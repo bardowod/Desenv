@@ -1,0 +1,16 @@
+DataTable dtTabela = new DataTable("Teste");
+dtTabela.Columns.Add("Codigo");
+dtTabela.Columns.Add("Nome");
+dtTabela.Columns.Add("Sexo");
+
+for (int i = 0; i < 100; i++)
+{
+    DataRow dtRow = dtTabela.NewRow();
+    dtRow["Codigo"] = i;
+    dtRow["Nome"] = "Carol Nakamura Rodrigues deu a bunda para o Samuel Rodrigues";
+    dtRow["Sexo"] = "Feminino";
+
+   dtTabela.Rows.Add(dtRow);
+}
+grdTabela.DataSource = dtTabela;
+grdTabela.DataBind();

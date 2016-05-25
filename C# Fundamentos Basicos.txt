@@ -1,0 +1,71 @@
+Assemblie / IL --> é um compilado da plataforma.Net
+
+A ddl/.exe --> conversa com o framework e por sua vez o framework conversa com o 
+Sistema Operacional(SO)
+
+
+Dentro do Assemblie se encontra os Intermet Lamb
+
+1.0;1.1 / 2.0;3.0;3.5;4.0;4.5;4.1.5 --> aplicações que são 1.0 e 1.1 não tem compatibilidade de 
+framework a partir do 2.0
+
+TIPOS DE ARQUIVOS
+.csproj --> Arquivo de projeto c#
+.cs --> Arquivo de código fonte c#
+.config --> Arquivo de configuração da plataforma .Net
+
+TIPOS INTERNOS DO .NET FRAMEWORK
+
+byte,int,long,double e decimal
+bool,
+Datetime,
+string, 
+char --> guarda um caractere só
+
+Apelido C#     Nome Real
+Int32              int
+String	           string
+
+
+a Conversão "cast" só pode ser usado pra variaveis do mesmo tipo (categoria)
+
+Operadores do C#
+ARITMETICOS
++soma
+-subtração
+*multiplicação
+/divição
+^Exponenciação
+
+ATRIBUIÇÃO
+= 
++=
+-=
+
+LOGICOS
+&& and
+|| or
+! Negação
+
+COMPARAÇÃO
+> maior
+< menor
+>= maior igual
+<= igual
+!= diferente
+
+USANDO CLASSES NO .NET FRAMEWORK
+
+-ASSEMBLIE
+   Namespace-->
+	tipos -->
+		 class
+		 interface
+		 struct
+		 enum
+		 delegate
+
+
+
+
+
