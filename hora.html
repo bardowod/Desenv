@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    <title>Hora</title>
+    <script type="text/javascript">
+function time()
+{
+hora=new Date();
+h = hora.getHours();
+m = hora.getMinutes();
+s = hora.getSeconds();
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+setTimeout('time()',500);
+}
+    </script>
+</head>
+<body onload="time()">
+    <div id="txt"></div>
+</body>
+</html>

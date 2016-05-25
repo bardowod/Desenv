@@ -1,0 +1,28 @@
+$(document).ready(function () {
+            $('#abrePopup').click(function () { 
+                window.open("Index.aspx", "Totem", "width=1024");
+            });
+        });
+
+
+window.open('Index.aspx', 'Totem', 'title=0,width=1024,dialog=yes,dependent=no,height=725,scrolling=auto,resizable=0,location=no,directories=0,menubar=0,status=0,toolbar=0');
+
+
+------------------------------------------------------------------Propriedades-------------------------------------------------------
+window.open("Localização","nomedoframe","propriedades")
+Localização: O endereço da page que se quer abrir.
+Nomedoframe: Coloca o nome do frame no qual deseja abrir o endereço "Localização", Se no caso for a página-mãe da janela, usa "_parent", se for numa janela nova que deseja que seja aberta coloca "_blank", se quiser abrir o site na mesma janela coloca "_self".
+Propriedades: Coloca as propriedades da janela, tipo qual a posição que ela deve assumir na tela, e quais atributos deve ter, tipo pode determinar o tamanho dela, quais menus vai ter ... Segue abaixo os atributos que eu lembro agora:
+scrollbars : Barras de rolagem
+toolbar : Aquela barrinha que tem os botões de voltar, atualizar, parar...
+menubar : A barra de menu, que tem o "Arquivo", "Exibir","Ferramentas", ...
+directories : Uma barra de links que nunca na minha vida usei!
+status : A barra de status
+location : A barra de endereços
+resizable : Para permitir que o usuario possa ou não modificar o tamanho da janela.
+width : Define a Largura da janela a ser aberta.
+height : Define a altura da janela a ser aberta
+maximized : Pra abrir a janela nova já maximizada.(não pode ter, é claro, nem o width nem o height!, nunca testei essa não)
+fullscreen : Para abrir a janela no modo "Tela Cheia"
+left : Distancia horizontal partindo da esquerda que você deseja que a janela se posicione.
+top : Distância vertical no partindo de cima que você deseja que a janela se posicione
