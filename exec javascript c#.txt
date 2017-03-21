@@ -1,3 +1,0 @@
-this.Page.ClientScript.RegisterClientScriptBlock(this.GetType(), "JavaScript", "window.alert('teste de javascript')", true); 
-
-ScriptManager.RegisterStartupScript(this.Page, Page.GetType(), "Insert", "alert('Hello This is first function from code behind ');", true);
